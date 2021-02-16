@@ -5,16 +5,18 @@ NAMA : WILLIAM SEAN WIYOGO
 <html>
 <body>
 </p>
-
-<input type="date" id="chcdate"></p>
+DATE 1 </P>
+<input type="date" id="chcdate1"></p>
+DATE 2 </P>
+<input type="date" id="chcdate2"></p>
 <input type="button" id="btn" value="check" onclick="hitung()"></input></p>
 <label id="jwb">jawaban</label>
 
 <script type="text/javascript">
 	function hitung(){
-		var hari= new Date(Date.now())
-		var date=document.getElementById("chcdate").value - hari
-		console.log(date)
+		var date1=document.getElementById("chcdate1").value
+		var date2=document.getElementById("chcdate2").value
+		var jwb = document.getElementById("jwb").value
 	}
 </script>
 
