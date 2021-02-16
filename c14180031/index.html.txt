@@ -1,2 +1,22 @@
 NRP : C14180031
 NAMA : WILLIAM SEAN WIYOGO
+
+<!DOCTYPE html>
+<html>
+<body>
+</p>
+
+<input type="date" id="chcdate"></p>
+<input type="button" id="btn" value="check" onclick="hitung()"></input></p>
+<label id="jwb">jawaban</label>
+
+<script type="text/javascript">
+	function hitung(){
+		var hari= new Date(Date.now())
+		var date=document.getElementById("chcdate").value - hari
+		console.log(date)
+	}
+</script>
+
+</body>
+</html>
